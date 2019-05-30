@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 body{
 	margin: auto;
 	max-width: 50%;
-	width: 1000px;
+	width: 860px;
 }
 
 /******* Header Styling *****/
@@ -92,7 +92,7 @@ ul{
  li a{
 	color: black;
 	text-decoration: none;
-	margin-right: 60px;
+	margin-right: 40px;
 }
 
 li  a:hover{
@@ -155,14 +155,14 @@ article{
 
 .row1 {
 	margin: 50px  0px;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	display: flex;
 	flex-wrap: row;
 	justify-content: space-between;
 }
 
 .row1-columns {
-	max-width: 460px;
+	max-width: 48%;
 	
 }
  /* How to get space between flex items? is a width necessary? */
@@ -173,7 +173,7 @@ article{
 }
 
 .middle-img{
-	max-width: 1000px;;
+	/* max-width: 1000px; */
 	width: 100%;
 	height: auto;
 	
@@ -183,10 +183,13 @@ article{
 .row3 {
 	display: flex;
 	flex-wrap: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	margin-bottom: 50px;
 }
 
+.row3-columns{
+	width: 31%;
+}
 
 /******* Footer Styling *****/
 
@@ -199,3 +202,78 @@ article{
 	margin: 40px 0px;
 	padding: 20px 0px;
 }
+
+
+
+/***************** Services Page ***************/
+
+/******* Services Header Styling *****/
+
+
+
+.servicesHeader{
+	margin: 0px 0px 10px;
+}
+
+
+.services-header-img {
+	max-width: 1000px;;
+	width: 100%;
+	height: auto;
+}
+
+.servicesTitle{
+	font-size: 28px;
+	margin-top: 40px;
+}
+
+
+/******* Services Article Styling *****/
+
+.servicesArticle{
+	padding: 30px 0px;
+}
+
+.rows{
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	
+}
+
+.columns{
+	background: rgb(241, 241, 241);
+	border: 1px solid black;
+	padding: 20px;
+	width: 48%;
+	margin: 20px 0px;
+	
+}
+
+/******* Services Section Styling *****/
+
+.sectionRow{
+	display: flex;
+	justify-content: space-between;
+}
+.sectionColumn{
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+}
+
+.sectionColumn p {
+	margin-top: 30px;
+}
+
+.sectionList{
+	list-style-type: square;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 30px;
+}
+
+.sectionList li{
+	align-content: space-between;
+}
+

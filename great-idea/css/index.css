@@ -176,6 +176,7 @@ article {
 
 .middle-img {
 	margin: 50px 0;
+	max-width: 1000px;
 	width: 100%;
 	height: auto;
 	
@@ -192,7 +193,6 @@ article {
 	width: 30%;
 	margin-bottom: 50px;
 }
-
 
 /******* Footer Styling *****/
 
@@ -212,15 +212,13 @@ article {
 
 /******* Services Header Styling *****/
 
-
-
 .servicesHeader{
 	margin: 100px 0px 10px;
 }
 
 
 .services-header-img {
-	max-width: 1000px;;
+	max-width: 1000px;
 	width: 100%;
 	height: auto;
 }
@@ -237,23 +235,20 @@ article {
 	padding: 30px 0px;
 }
 
-.rows{
+.service-card {
 	display: flex;
 	justify-content: space-between;
-	align-content: space-between;
-	
 }
 
-.columns{
+.card-info {
 	background: rgb(241, 241, 241);
 	border: 1px solid black;
-	padding: 20px;
+	margin: 20px 0;
+	padding: 25px;
 	width: 48%;
-	margin: 20px 0px;
-	
 }
 
-.learnMore{
+.learnMore {
 	font-size: 12px;;
 	border-radius: 5px;
 	border: 1px solid black;
@@ -266,29 +261,29 @@ article {
 
 /******* Services Section Styling *****/
 
-.sectionRow{
+.service-facts {
 	display: flex;
 	justify-content: space-between;
+	margin: 0;
 }
-.sectionColumn{
-	display: flex;
-	flex-direction: column;
+
+.facts-left {
 	width: 48%;
 }
 
-.sectionColumn p {
-	margin-top: 30px;
+.facts-left p{
+	margin: 20px 0;
 }
 
-.sectionList{
-	list-style-type: square;
+.facts-left ul{
+	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
-	margin-top: 30px;
-	margin-left: 15px;
+	height: 45%;
+	justify-content: space-evenly;
 }
 
-.sectionList li{
-	align-content: space-between;
+.facts-left li {
+	list-style-type: square;
+	margin-left: 20px;
 }
 

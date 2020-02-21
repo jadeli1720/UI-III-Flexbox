@@ -1,5 +1,5 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
+   v3.0 | 20110126
    License: none (public domain)
 */
 
@@ -64,3 +64,231 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	margin: auto;
+	max-width: 50%;
+	width: 860px;
+}
+
+/******* Header Styling *****/
+
+ nav{
+	 background-color: deepskyblue;
+	 height: 100px;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0%;
+	z-index: 1;
+}
+
+ul{
+	display: flex;
+	margin-right: 140px;
+}
+
+ li a{
+	color: rgb(71, 71, 71);
+	text-decoration: none;
+	margin-right: 40px;
+}
+
+li  a:hover{
+	color: white;
+}
+
+
+/******* Section 1 Styling *****/
+
+header{
+	margin: 160px 0 30px;
+
+}
+
+.row {
+	/* border: 1px dashed blue; */
+	display: flex;
+	flex-wrap: row;
+	align-items: center;
+}
+
+.column {
+	flex: 50%;
+	
+}
+
+
+.circle {
+
+}
+
+.column h1 {
+	font-size: 80px;
+	text-align: center;
+	
+}
+
+.get-button {
+	margin-top: 20px;
+}
+
+.getStarted {
+	background: white;
+	border: 1px solid black;
+	display: block;
+	font-size: 18px;
+	margin: auto;
+	text-decoration: none;
+	padding: 10px 50px;
+}
+
+
+/******* Article Styling *****/
+
+article{
+	margin: 60px 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.row1 {
+	margin: 50px  0px;
+	/* border: 1px solid green; */
+	display: flex;
+	flex-wrap: row;
+	justify-content: space-between;
+}
+
+.row1-columns {
+	max-width: 48%;
+	
+}
+ /* How to get space between flex items? is a width necessary? */
+.row2 {
+	display: flex;
+	flex-wrap: row;
+	margin-bottom: 30px;
+}
+
+.middle-img{
+	/* max-width: 1000px; */
+	width: 100%;
+	height: auto;
+	
+}
+
+
+.row3 {
+	display: flex;
+	flex-wrap: row;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.row3-columns{
+	width: 31%;
+}
+
+/******* Footer Styling *****/
+
+.contact p{
+	margin-top: 20px;
+}
+
+.copyright{
+	text-align: center;
+	margin: 40px 0px;
+	padding: 20px 0px;
+}
+
+
+
+/***************** Services Page ***************/
+
+/******* Services Header Styling *****/
+
+
+
+.servicesHeader{
+	margin: 100px 0px 10px;
+}
+
+
+.services-header-img {
+	max-width: 1000px;;
+	width: 100%;
+	height: auto;
+}
+
+.servicesTitle{
+	font-size: 28px;
+	margin-top: 40px;
+}
+
+
+/******* Services Article Styling *****/
+
+.servicesArticle{
+	padding: 30px 0px;
+}
+
+.rows{
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	
+}
+
+.columns{
+	background: rgb(241, 241, 241);
+	border: 1px solid black;
+	padding: 20px;
+	width: 48%;
+	margin: 20px 0px;
+	
+}
+
+.learnMore{
+	font-size: 12px;;
+	border-radius: 5px;
+	border: 1px solid black;
+	background: white;
+	margin-top: 20px;
+	margin-left: 0px;
+	padding: 10px 40px;
+	
+}
+
+/******* Services Section Styling *****/
+
+.sectionRow{
+	display: flex;
+	justify-content: space-between;
+}
+.sectionColumn{
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+}
+
+.sectionColumn p {
+	margin-top: 30px;
+}
+
+.sectionList{
+	list-style-type: square;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+
+.sectionList li{
+	align-content: space-between;
+}
+
